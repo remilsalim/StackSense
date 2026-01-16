@@ -1,0 +1,296 @@
+[
+  {
+    "id": "react",
+    "name": "React",
+    "category": "Frontend",
+    "description": "A JavaScript library for building user interfaces.",
+    "tags": [
+      "spa",
+      "component-based",
+      "popular",
+      "web"
+    ],
+    "min_scale": "Small",
+    "cost_tier": "Free",
+    "key_benefits": [
+      "Unrivaled ecosystem: If a problem exists, there's a React library for it.",
+      "Virtual DOM ensures smooth updates even in complex functional UIs.",
+      "Reusable component architecture drastically reduces technical debt over time."
+    ],
+    "attributes": {
+      "seo_friendly": false,
+      "high_performance": true,
+      "rapid_development": true
+    }
+  },
+  {
+    "id": "nextjs",
+    "name": "Next.js",
+    "category": "Frontend",
+    "description": "The React Framework for the Web.",
+    "tags": [
+      "ssr",
+      "seo",
+      "hybrid",
+      "web"
+    ],
+    "min_scale": "Small",
+    "cost_tier": "Free",
+    "key_benefits": [
+      "Hybrid Rendering: Mix Static (SSG) and Server-Side (SSR) pages for optimal speed.",
+      "Automatic Image Optimization & Font hosting out of the box.",
+      "Zero-config routing system that scales from blog to enterprise e-commerce."
+    ],
+    "attributes": {
+      "seo_friendly": true,
+      "high_performance": true,
+      "rapid_development": true
+    }
+  },
+  {
+    "id": "vue",
+    "name": "Vue.js",
+    "category": "Frontend",
+    "description": "The Progressive JavaScript Framework.",
+    "tags": [
+      "spa",
+      "web",
+      "easy-learning-curve"
+    ],
+    "min_scale": "Small",
+    "cost_tier": "Free",
+    "key_benefits": [
+      "Gentlest learning curve: You can understand a Vue component in minutes.",
+      "Two-way data binding simplifies form handling significantly.",
+      "Single-File Components (HTML/CSS/JS) keep code strictly organized."
+    ],
+    "attributes": {
+      "seo_friendly": false,
+      "high_performance": true,
+      "rapid_development": true
+    }
+  },
+  {
+    "id": "fastapi",
+    "name": "FastAPI",
+    "category": "Backend",
+    "description": "High performance, easy to learn, fast to code, ready for production.",
+    "tags": [
+      "python",
+      "async",
+      "api",
+      "ml-ready"
+    ],
+    "min_scale": "Small",
+    "cost_tier": "Free",
+    "key_benefits": [
+      "Native Async support: Handles thousands of concurrent connections (like Node.js) but with Python.",
+      "Automatic API Documentation: Generates Swagger UI without writing a single line of extra code.",
+      "Pydantic integration guarantees data validation is never an afterthought."
+    ],
+    "attributes": {
+      "high_performance": true,
+      "rapid_development": true,
+      "data_integrity": true
+    }
+  },
+  {
+    "id": "django",
+    "name": "Django",
+    "category": "Backend",
+    "description": "The web framework for perfectionists with deadlines.",
+    "tags": [
+      "python",
+      "batteries-included",
+      "monolith"
+    ],
+    "min_scale": "Small",
+    "cost_tier": "Free",
+    "key_benefits": [
+      "Batteries-included: Auth, Admin panel, and ORM are built-in, saving weeks of setup.",
+      "Battle-tested security: Protects against SQL injection and XSS by default.",
+      "Mature ecosystem perfect for content-heavy or enterprise applications."
+    ],
+    "attributes": {
+      "rapid_development": true,
+      "security_critical": true,
+      "data_integrity": true
+    }
+  },
+  {
+    "id": "express",
+    "name": "Express.js (Node.js)",
+    "category": "Backend",
+    "description": "Fast, unopinionated, minimalist web framework for Node.js.",
+    "tags": [
+      "javascript",
+      "backend",
+      "mean-stack"
+    ],
+    "min_scale": "Small",
+    "cost_tier": "Free",
+    "key_benefits": [
+      "Single Language: Share logic (and types) between Frontend and Backend.",
+      "Massive NPM registry: Access to millions of packages for any functionality.",
+      "Non-blocking I/O makes it ideal for real-time chats and streaming services."
+    ],
+    "attributes": {
+      "high_performance": true,
+      "rapid_development": true,
+      "real_time": true
+    }
+  },
+  {
+    "id": "postgresql",
+    "name": "PostgreSQL",
+    "category": "Database",
+    "description": "The World's Most Advanced Open Source Relational Database.",
+    "tags": [
+      "sql",
+      "relational",
+      "acid",
+      "complex-queries"
+    ],
+    "min_scale": "Small",
+    "cost_tier": "Free",
+    "key_benefits": [
+      "JSONB support: Gives you the flexibility of NoSQL with the reliability of a Relational DB.",
+      "PostGIS extension makes it the gold standard for geospatial data.",
+      "Rock-solid ACID compliance protects your most critical financial data."
+    ],
+    "attributes": {
+      "data_integrity": true,
+      "complex_relationships": true,
+      "security_critical": true
+    }
+  },
+  {
+    "id": "mongodb",
+    "name": "MongoDB",
+    "category": "Database",
+    "description": "The original document-based database.",
+    "tags": [
+      "nosql",
+      "document",
+      "flexible-schema"
+    ],
+    "min_scale": "Small",
+    "cost_tier": "Free",
+    "key_benefits": [
+      "Schema-less design: Iterate on your data model instantly without migrations.",
+      "Horizontal Scaling: Sharding is built-in, making it trivial to scale to petabytes.",
+      "Native JSON storage matches your API data structure perfectly."
+    ],
+    "attributes": {
+      "flexible_schema": true,
+      "rapid_prototyping": true
+    }
+  },
+  {
+    "id": "redis",
+    "name": "Redis",
+    "category": "Database",
+    "description": "In-memory data structure store, used as a database, cache, and message broker.",
+    "tags": [
+      "cache",
+      "key-value",
+      "fast"
+    ],
+    "min_scale": "Medium",
+    "cost_tier": "Free",
+    "key_benefits": [
+      "Sub-millisecond latency: The fastest way to read marketing/session data.",
+      "Versatile data structures: Lists, Sets, and Hashes allow for complex caching strategies.",
+      "Pub/Sub features enable lightweight real-time messaging."
+    ],
+    "attributes": {
+      "high_performance": true,
+      "caching": true
+    }
+  },
+  {
+    "id": "raspberry_pi",
+    "name": "Raspberry Pi 4",
+    "category": "Hardware",
+    "description": "Low cost, credit-card sized computer.",
+    "tags": [
+      "iot",
+      "edge-computing",
+      "linux"
+    ],
+    "min_scale": "Small",
+    "cost_tier": "Moderate",
+    "key_benefits": [
+      "Full Linux Environment: Run Python, Docker, and Web Servers natively on the edge.",
+      "GPIO Pins: Direct physical control over sensors, motors, and lights.",
+      "Massive community support ensuring drivers exist for almost any peripheral."
+    ],
+    "attributes": {
+      "hardware_integration": true,
+      "offline_capability": true
+    }
+  },
+  {
+    "id": "arduino",
+    "name": "Arduino Uno",
+    "category": "Hardware",
+    "description": "Open-source electronics platform based on easy-to-use hardware and software.",
+    "tags": [
+      "iot",
+      "microcontroller",
+      "low-power"
+    ],
+    "min_scale": "Prototype",
+    "cost_tier": "Cheap",
+    "key_benefits": [
+      "Real-time processing: No OS latency, perfect for precise timing tasks.",
+      "Extremely low power consumption for battery-operated devices.",
+      "Rugged and simple: Harder to 'brick' than a complex Linux computer."
+    ],
+    "attributes": {
+      "hardware_integration": true,
+      "low_power": true
+    }
+  },
+  {
+    "id": "docker",
+    "name": "Docker",
+    "category": "DevOps",
+    "description": "Develop, ship, and run applications in containers.",
+    "tags": [
+      "containerization",
+      "standard"
+    ],
+    "min_scale": "Small",
+    "cost_tier": "Free",
+    "key_benefits": [
+      "Eliminates 'It works on my machine': Consistent environment dev-to-prod.",
+      "Microservices ready: Isolate services cleanly without dependency conflicts.",
+      "Instant rollback: Revert to a previous image hash in seconds if deployment fails."
+    ],
+    "attributes": {
+      "high_performance": true,
+      "security_critical": true
+    }
+  },
+  {
+    "id": "github_actions",
+    "name": "GitHub Actions",
+    "category": "DevOps",
+    "description": "Automate your workflow from idea to production.",
+    "tags": [
+      "ci-cd",
+      "automation"
+    ],
+    "min_scale": "Small",
+    "cost_tier": "Free",
+    "key_benefits": [
+      "Integrated with code: Define pipelines in YAML right next to your source.",
+      "Matrix builds: Test across Node 14/16/18 and Python 3.9/3.10 simultaneously.",
+      "Marketplace: Drop-in actions for AWS, Docker, and npm publishing."
+    ],
+    "attributes": {
+      "rapid_development": true
+    }
+  }
+]
