@@ -1,4 +1,4 @@
-﻿# StackSense™ - Intelligent Tech Stack Recommender
+# StackSense™ - Intelligent Tech Stack Recommender
 
 **StackSense** is an advanced, algorithm-driven recommendation engine designed to help developers, founders, and students choose the perfect technology stack for their next big idea.
 
@@ -72,6 +72,8 @@ npm run dev
 4.  **Get Results:** Hit "Generate Recommendation" to see your tailored stack, Pro Advantages, and Deployment Strategy.
 
 ## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
 
 © 2026 **StackSense™**.
 Crafted with ♥ by **Remil Salim**.
